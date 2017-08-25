@@ -6,7 +6,7 @@ BUILD_DIR=$1
 CACHE_DIR=$2
 
 # Fontconfig
-FONTCONFIG_VERSION="2.10.2"
+FONTCONFIG_VERSION="2.12.4"
 FILE_NAME="fontconfig-${FONTCONFIG_VERSION}.tar.gz"
 
 mkdir -p $CACHE_DIR
@@ -29,7 +29,7 @@ echo "cp -rf \"${CACHE_DIR}/fontconfig-${FONTCONFIG_VERSION}/*\" $BUILD_DIR/vend
 cp -rf "${CACHE_DIR}/fontconfig-${FONTCONFIG_VERSION}/" $BUILD_DIR/vendor/fontconfig
 
 # Poppler
-VERSION="0.22.0"
+VERSION="0.57.0"
 FILE_NAME="poppler-${VERSION}.tar.gz"
 
 mkdir -p $CACHE_DIR
